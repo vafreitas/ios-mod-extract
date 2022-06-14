@@ -10,10 +10,9 @@ class ExtractViewModelTests: XCTestCase {
     
     override func setUp() {
         super.setUp()
-        mock = JSONMockOrchestrator()
-        let provider = RequestProvider<ExtractAPI>()
-        provider.executor.orchestrator = mock
-        viewModel.service.provider = provider
+        mock = JSONMockOrchestrator(from: self)
+        let provider = RequestProvider<ExtractAPI>(orchestrator: mock)
+        viewModel.service.apply(provider: provider)
     }
     
     override func tearDown() {

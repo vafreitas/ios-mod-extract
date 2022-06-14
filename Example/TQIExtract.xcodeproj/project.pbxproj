@@ -12,7 +12,7 @@
 		607FACEC1AFB9204008FA782 /* ExtractViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* ExtractViewModelTests.swift */; };
 		635013FE7CC1715A21D37BBC /* Pods_TQIExtract_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE083F5696CD80543CC6D444 /* Pods_TQIExtract_Tests.framework */; };
 		68361794C90548A0543644F4 /* Pods_TQIExtract_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BBDC1690A80B004A47F9FB7 /* Pods_TQIExtract_Example.framework */; };
-		DD240E0C278E5D970054035A /* getTransactionsSuccess.json in Resources */ = {isa = PBXBuildFile; fileRef = DD240E0B278E5D970054035A /* getTransactionsSuccess.json */; };
+		C3CE34F12858F80B00285960 /* getTransactionsSuccess.json in Resources */ = {isa = PBXBuildFile; fileRef = DD240E0B278E5D970054035A /* getTransactionsSuccess.json */; };
 		DD9B79EF278E0A0100B83CD5 /* ExtractExampleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD9B79E9278E0A0100B83CD5 /* ExtractExampleViewController.xib */; };
 		DD9B79F0278E0A0100B83CD5 /* ExtractExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9B79EA278E0A0100B83CD5 /* ExtractExampleViewController.swift */; };
 		DD9B79F2278E0A0100B83CD5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9B79EE278E0A0100B83CD5 /* AppDelegate.swift */; };
@@ -291,7 +291,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
-				DD240E0C278E5D970054035A /* getTransactionsSuccess.json in Resources */,
 				DD9B79EF278E0A0100B83CD5 /* ExtractExampleViewController.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
 			);
@@ -301,6 +300,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3CE34F12858F80B00285960 /* getTransactionsSuccess.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
