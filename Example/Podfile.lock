@@ -3,11 +3,12 @@ PODS:
   - TQIExtract (1.1.0):
     - TQICoordinator
     - VFNetwork
-  - VFNetwork (1.4.1)
+  - VFNetwork (1.4.2)
 
 DEPENDENCIES:
   - TQICoordinator (from `https://github.com/vafreitas/ios-mod-coordinator.git`)
   - TQIExtract (from `../`)
+  - VFNetwork
 
 SPEC REPOS:
   trunk:
@@ -27,8 +28,8 @@ CHECKOUT OPTIONS:
 SPEC CHECKSUMS:
   TQICoordinator: 43c342be3dc6732aea451ddcde9675de3bebe711
   TQIExtract: 666a71230818b837cb08f7cdca893f3cd7fa4ca6
-  VFNetwork: 2070046bcd8b7e766affc3d1a4cd7729c3b38880
+  VFNetwork: 7b71c6a044beceabee82e6b5f56f4d2fcbc8552e
 
-PODFILE CHECKSUM: 91e2a23d86209a20e969f36a7946e9e4d89f9cda
+PODFILE CHECKSUM: 120891009f6d88d13a3535e4b5fe16823462b0bd
 
 COCOAPODS: 1.11.2
